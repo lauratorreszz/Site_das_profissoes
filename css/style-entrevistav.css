@@ -86,7 +86,7 @@ nav{
 .menu-mobile div{
     width: 48px;
     height: 5px;
-    background-color: blueviolet;
+    background-color: rgb(136, 42, 224);
     margin: 5px;
     border-radius: 5px;
     transition: 0.3s;
