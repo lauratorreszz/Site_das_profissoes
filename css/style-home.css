@@ -43,10 +43,11 @@ hr{
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 2px;
-    margin-top: 11vh;
     transition: 0.3s;
     opacity: 1;
     border:none;
+    position: fixed;
+    margin-top: -2vh;
 }
 
 .logo{
@@ -168,13 +169,13 @@ nav li{
 /*CORPO COM O CONTEUDO*/
 
 main h1{
-    margin-top: 5vh;
+    margin-top: 13vh;
     margin-left: 3vh;
     width: 75vw;
 }
 
 #sobre{
-    float: right;
+    margin-left: auto;
     width: 65vw;
     height: 20vh;
     background-color: black;
@@ -186,6 +187,34 @@ main h1{
     font-size: 14px;
     margin-top: 5px;
 }
+
+#missao{
+    width: 65vw;
+    height: 20vh;
+    background-color: black;
+    margin-top: 20px;
+    padding: 6px;
+}
+
+#missao p{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#objetivo{
+    margin-left: auto;
+    width: 65vw;
+    height: 20vh;
+    background-color: black;
+    margin-top: 20px;
+    padding: 6px;
+}
+
+#objetivo p{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
 /*CORPO COM O CONTEUDO*/
 
 /*FOOTER*/
