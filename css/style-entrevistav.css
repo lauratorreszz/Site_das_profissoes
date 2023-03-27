@@ -45,7 +45,7 @@ hr{
     opacity: 1;
     border:none;
     position: fixed;
-    margin-top: 11vh;
+    margin-top: -1vh;
 }
 
 .logo{
@@ -175,6 +175,7 @@ nav a{
 /*CONTEUDO*/
 
 main {
+    margin-top: 11vh;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
