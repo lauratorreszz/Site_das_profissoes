@@ -171,3 +171,52 @@ nav a{
 /*============*/
 
 /*NAVBAR*/
+
+/*CONTEUDO*/
+
+main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.video{
+    width: 80vw;
+    height: 25vh;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 5vh 5vw;
+    background-image: url(/img/background\ do\ video.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position-y: 20px;
+}
+
+/*CONTEUDO*/
+
+/*FOOTER*/
+
+footer{
+    width: 100vw;
+    height: 25vh;
+    background-color: rgb(107, 55, 128);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    transition: ease-in-out 0.5s;
+}
+
+footer img:hover{
+    transform: scale(0.9);
+}
+
+/*FOOTER*/
