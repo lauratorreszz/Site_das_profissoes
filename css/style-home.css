@@ -41,7 +41,7 @@ header{
 
 hr{
     background-color: rgb(255, 255, 255);
-    width: 100%;
+    width: 100vw;
     height: 2px;
     transition: 0.3s;
     opacity: 1;
@@ -178,8 +178,8 @@ main h1{
     margin-left: auto;
     width: 65vw;
     height: 20vh;
-    background-color: black;
-    margin-top: 20px;
+    background-color: rgb(122, 4, 77);
+    margin-top: 30px;
     padding: 6px;
 }
 
@@ -191,8 +191,8 @@ main h1{
 #missao{
     width: 65vw;
     height: 20vh;
-    background-color: black;
-    margin-top: 20px;
+    background-color: rgb(122, 4, 77);
+    margin-top: 30px;
     padding: 6px;
 }
 
@@ -205,9 +205,10 @@ main h1{
     margin-left: auto;
     width: 65vw;
     height: 20vh;
-    background-color: black;
-    margin-top: 20px;
+    background-color: rgb(122, 4, 77);
+    margin-top: 30px;
     padding: 6px;
+    margin-bottom: 25px;
 }
 
 #objetivo p{
@@ -218,5 +219,24 @@ main h1{
 /*CORPO COM O CONTEUDO*/
 
 /*FOOTER*/
+footer{
+    width: 100vw;
+    height: 25vh;
+    background-color: rgb(107, 55, 128);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
 
+footer img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    transition: ease-in-out 0.5s;
+}
+
+footer img:hover{
+    transform: scale(0.9);
+}
 /*FOOTER*/
