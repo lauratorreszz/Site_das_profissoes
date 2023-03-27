@@ -173,6 +173,19 @@ main h1{
     width: 75vw;
 }
 
+#sobre{
+    float: right;
+    width: 65vw;
+    height: 20vh;
+    background-color: black;
+    margin-top: 20px;
+    padding: 6px;
+}
+
+#sobre p{
+    font-size: 14px;
+    margin-top: 5px;
+}
 /*CORPO COM O CONTEUDO*/
 
 /*FOOTER*/
