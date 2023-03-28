@@ -181,6 +181,7 @@ main h1{
     background-color: rgb(122, 4, 77);
     margin-top: 30px;
     padding: 6px;
+    border-radius: 5% 0 0 5%;
 }
 
 #sobre p{
@@ -190,10 +191,10 @@ main h1{
 
 #missao{
     width: 65vw;
-    height: 20vh;
     background-color: rgb(122, 4, 77);
     margin-top: 30px;
     padding: 6px;
+    border-radius: 0 5% 5% 0;
 }
 
 #missao p{
@@ -204,11 +205,11 @@ main h1{
 #objetivo{
     margin-left: auto;
     width: 65vw;
-    height: 20vh;
     background-color: rgb(122, 4, 77);
     margin-top: 30px;
     padding: 6px;
     margin-bottom: 25px;
+    border-radius: 5% 0 0 5%;
 }
 
 #objetivo p{
