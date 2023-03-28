@@ -220,3 +220,24 @@ footer img:hover{
 }
 
 /*FOOTER*/
+
+/*Modificação do Scroll*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track {
+    background: #474476; 
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #372134;
+    border-radius: 15px;
+}
+
+/*=====================*/
