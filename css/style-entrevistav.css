@@ -219,25 +219,26 @@ footer img:hover{
     transform: scale(0.9);
 }
 
-/*FOOTER*/
 
-/*Modificação do Scroll*/
-
-html {
-    scroll-behavior: smooth;
+.escrita{
+    width: 80vw;
+    background-color: #b9b8b8;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
-::-webkit-scrollbar-track {
-    background: #474476; 
+#texto h2{
+    margin-top: -50px;
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
 }
 
-::-webkit-scrollbar {
-    width: 10px;
+#texto img{
+    width: 100%;
 }
 
-::-webkit-scrollbar-thumb {
-    background: #372134;
-    border-radius: 15px;
+#texto p{
+    margin: 10px 10px 10px 10px;
 }
-
-/*=====================*/

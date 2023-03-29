@@ -245,23 +245,11 @@ footer img:hover{
 }
 /*FOOTER*/
 
-/*Modificação do Scroll*/
-
-html {
-    scroll-behavior: smooth;
+.escrita{
+    width: 80vw;
+    background-color: #b9b8b8;
 }
 
-::-webkit-scrollbar-track {
-    background: #474476; 
+.texto img{
+    width: 100%;
 }
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #372134;
-    border-radius: 15px;
-}
-
-/*=====================*/
