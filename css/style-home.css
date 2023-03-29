@@ -178,10 +178,11 @@ main h1{
     margin-left: auto;
     width: 65vw;
     height: 20vh;
-    background-color: #291629;
+    background-color: #29162994;
     margin-top: 30px;
     padding: 6px;
     border-radius: 5% 0 0 5%;
+    box-shadow: 20px 15px 0px #b9b8b8;
 }
 
 #sobre p{
@@ -191,10 +192,11 @@ main h1{
 
 #missao{
     width: 65vw;
-    background-color: #291629;
+    background-color: #29162994;
     margin-top: 30px;
     padding: 6px;
     border-radius: 0 5% 5% 0;
+    box-shadow: -20px 15px 0px #b9b8b8;
 }
 
 #missao p{
@@ -205,11 +207,12 @@ main h1{
 #objetivo{
     margin-left: auto;
     width: 65vw;
-    background-color: #291629;
+    background-color: #29162994;
     margin-top: 30px;
     padding: 6px;
     margin-bottom: 25px;
     border-radius: 5% 0 0 5%;
+    box-shadow: 20px 15px 0px #b9b8b8;
 }
 
 #objetivo p{
